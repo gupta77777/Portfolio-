@@ -23,7 +23,7 @@ const greeting = {
   username: "Prashant Gupta",
   title: "Hi all, I'm Prashant",
   subTitle: emoji(
-    "A passionate Full Stack Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Full Stack Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/14SbVE9kmRPjEjwqI_9EF6fVdnTvsbA1G/view?usp=drivesdk", // Set to empty to hide the button
@@ -51,9 +51,9 @@ const skillsSection = {
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Responsive Web Applications compatible on Mobile and Other Devices"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Implementation of Famous frontend liberary React JS"
     )
   ],
 
@@ -128,7 +128,7 @@ const techStack = {
     },
     {
       Stack: "Backend",
-      progressPercentage: "20%"
+      progressPercentage: "10%"
     },
     {
       Stack: "Programming",
@@ -183,7 +183,7 @@ const openSource = {
 
 const bigProjects = {
   title: " Projects",
-  subtitle: "SOME Project THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "SOME Project which I have done in Previously",
   projects: [
     {
       image: require("./assets/images/razor.jpeg"),
@@ -191,8 +191,8 @@ const bigProjects = {
       projectDesc: "Designed and implemented pages for Payments, Banking, and Features, allowing users to access additionalinformation through official website links with 10% decrease in loading time",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Visit Github Repository",
+          url: "https://github.com/gupta77777/Razor-pay-clone"
         }
         //  you can add extra buttons here.
       ]
@@ -203,8 +203,8 @@ const bigProjects = {
       projectDesc: "All new Apple watches are listed in this website",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Visit Github Repository",
+          url: "https://github.com/gupta77777/AppleWatch"
         }
       ]
     }
@@ -219,7 +219,6 @@ const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
-
   achievementsCards: [
     {
       title: "Kalanidhi Award",
@@ -322,14 +321,14 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+91-7427885682",
+  number: "+91-XXX XXXX XXX",
   email_address: "er.prashant742@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
+  userName: "Prashan34919908", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 
